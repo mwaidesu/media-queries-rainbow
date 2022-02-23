@@ -1,0 +1,72 @@
+div {
+  background: #efefef;
+  padding: 20px;
+  margin: 10px;
+}
+
+.text {
+  color: black;
+  font-size: 14px;
+}
+p{
+  text-align: center;
+}
+
+@media screen and (min-width: 300px) {
+  .red {
+    background-color: red;
+  }
+
+  .text1 {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .orange {
+    background-color: orange;
+  }
+  .text2 {
+    color: white;
+  }
+}
+@media screen and (min-width: 500px) {
+  .yellow {
+    background-color: yellow;
+  }
+  .text3 {
+    color: white;
+  }
+}
+@media screen and (min-width: 600px) {
+  .green {
+    background-color: green;
+  }
+  .text4 {
+    color: white;
+  }
+}
+@media screen and (min-width: 700px) {
+  .blue {
+    background-color: blue;
+  }
+  .text5 {
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  .indigo {
+    background-color: indigo;
+  }
+  .text6 {
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .violet {
+    background-color: violet;
+  }
+  .text7 {
+    color: white;
+  }
+}
